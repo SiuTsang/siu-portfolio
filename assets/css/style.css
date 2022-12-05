@@ -1,0 +1,129 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  padding: 20px;
+  background-color: rgb(203, 194, 194);
+  color: black;
+}
+
+header h1 {
+  display: inline-block;
+  font-size: 40px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-left: 50px;
+}
+
+header ul{
+  display: inline-block;
+  float: right;
+}
+
+header ul li {
+  display: inline-block;
+  padding: 15px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+header ul li:hover {
+  cursor: pointer;
+  background-color: wheat;
+  color: rgb(82, 165, 82);
+}
+
+.about-me {
+  background-image: url("../images/lab.jpg");
+  background-size: 100%;
+  flex-wrap: wrap;
+}
+
+.portrait,
+.intro {
+  display: inline-block;
+}
+
+.portrait img {
+  width: 500px;
+  height: 700px;
+  border-radius: 250px;
+  margin-left: 200px;
+}
+
+.intro {
+  width: 600px;
+  margin-left: 100px;
+  color: black;
+  font-size: 25px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  position: absolute;
+  top: 350px;
+  flex-wrap: wrap;
+}
+
+.work {
+  padding-top: 40px;
+  padding-bottom: 0px;
+  background-image: url("../images/pale-wall.jpg");
+  background-size: 100%;
+}
+
+.work h3 {
+  padding-left: 70px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font: bold;
+}
+
+.work img {
+  flex-wrap: wrap;
+  position: relative;
+  width: 600px;
+  height: 500px;
+}
+
+.work img:hover {
+  zoom: 105%;
+}
+
+.project {
+  display: inline-block;
+  width: 800px;
+  padding: 30px;
+  flex-wrap: wrap;
+}
+
+.contact {
+  background-color: beige;
+}
+.contact img {
+  width: 70px;
+  height: 70px;
+}
+
+.contact button {
+  justify-content: center;
+  margin: 30px;
+  border-radius: 8px;
+}
+
+.contact button:hover {
+  cursor: pointer; 
+}
+
+.resume{
+  background-color:rgb(209, 178, 141);
+}
+
+
+.resume img {
+  width: 100px;
+  height: 150px;
+  margin-left: 120px;
+}
+
+.footer {
+  text-align: center;
+  background-color: blanchedalmond;
+}
